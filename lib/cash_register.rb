@@ -14,6 +14,8 @@ class CashRegister
     quantity.times do
       @items.push(title)
     end
+    
+    self.last_transaction
   end
   
   def apply_discount
