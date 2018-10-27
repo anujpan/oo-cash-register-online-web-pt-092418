@@ -1,5 +1,5 @@
 class CashRegister
-  def initialize
+  def initialize(disc)
     @total = 0
   end
 end
