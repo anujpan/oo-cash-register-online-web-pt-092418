@@ -15,7 +15,7 @@ class CashRegister
       @items.push(title)
     end
     
-    self.last_transaction
+    self.last_transaction = amount * quantity
   end
   
   def apply_discount
